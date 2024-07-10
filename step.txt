@@ -1,0 +1,15 @@
+npx create-react-app digital-fe --template redux
+npm i react-icons
+npm i react-router-dom
+
+delete some file don't use 
+keep app.css app.js index.js
+
+** create components , pages 
+
+react router dom oulet 
+__ create page Home 
+setting write html in  .js
+"emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+}
