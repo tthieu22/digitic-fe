@@ -13,3 +13,9 @@ setting write html in  .js
 "emmet.includeLanguages": {
         "javascript": "javascriptreact"
 }
+
+** instal slide Marqee play logo
+npm i react fast marquee
+
+** rating instal libary 
+npm i react-rating-stars-component
