@@ -19,3 +19,9 @@ npm i react fast marquee
 
 ** rating instal libary 
 npm i react-rating-stars-component
+** instal swiper 
+npm i swiper
+
+** instal react helmet 
+npm i react-helmet
+use change title
