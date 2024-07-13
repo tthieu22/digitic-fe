@@ -6,6 +6,12 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import OurSrore from "./pages/OurSrore";
+import Blog from "./pages/Blog";
+import CompareProduct from "./pages/CompareProduct";
+import Wishlist from "./pages/Wishlist";
+import Login from "./pages/Login";
+import ForgotPassword from "./pages/ForgotPassword";
+import SignUp from "./pages/SignUp";
 function App() {
   return (
     <>
@@ -16,6 +22,13 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="store" element={<OurSrore />} />
+            <Route path="blogs" element={<Blog />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="compare-product" element={<CompareProduct />} />
+            <Route path="wishlist" element={<Wishlist />} />
+            <Route path="login" element={<Login />} />
+            <Route path="forgot-password" element={<ForgotPassword />} />
+            <Route path="sign-up" element={<SignUp />} />
           </Route>
         </Routes>
       </BrowserRouter>

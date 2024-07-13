@@ -5,7 +5,7 @@ const BreadCrumb = (props) => {
   return (
     <div className="breadcrumb mb-0 py-4">
       <div className="container-xxl">
-        <row>
+        <div className="row">
           <div className="col-12">
             <p className="text-center m-0 ">
               <Link className="text-dark" to="/">
@@ -14,7 +14,7 @@ const BreadCrumb = (props) => {
               &nbsp;/&nbsp;{title}
             </p>
           </div>
-        </row>
+        </div>
       </div>
     </div>
   );

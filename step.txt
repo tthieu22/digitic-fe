@@ -25,3 +25,6 @@ npm i swiper
 ** instal react helmet 
 npm i react-helmet
 use change title
+
+** Our store use 
+let location = useLocation();

@@ -194,7 +194,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section section className="fetured-wapper py-5 home-wapper-2">
+      <section className="fetured-wapper py-5 home-wapper-2">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
@@ -292,7 +292,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section section className="popular-wapper py-5 home-wapper-2">
+      <section className="popular-wapper py-5 home-wapper-2">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
