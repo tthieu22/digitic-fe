@@ -24,7 +24,7 @@ const Login = () => {
                   </div>
                   <div className="mt-1">
                     <input
-                      type="password "
+                      type="passsword "
                       placeholder="Password"
                       name="password"
                       className="input-control w-100"
