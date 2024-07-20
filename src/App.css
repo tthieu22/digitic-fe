@@ -263,6 +263,22 @@ footer .input-group-text {
   line-height: 22px;
   color: var(--color-777777);
 }
+.single-blog-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-1c1c1c);
+}
+
+.single-blog-card p {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+
+.single-blog-card a {
+  font-size: 15px;
+  color: var(--color-777777);
+  margin-bottom: 20px;
+}
 /* Blog Part  End Here*/
 
 /* Product Card */
@@ -581,3 +597,23 @@ footer .input-group-text {
   color: var(--color-1c1c1c);
 }
 /* Auth Card end here */
+/*  Main Product Page */
+.review-inner-wapper {
+  background-color: white;
+  padding: 30px;
+}
+.review-head {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+.review-head h4 {
+  font-size: 18px;
+  color: var(--color-1c1c1c);
+}
+.review-head p,
+.review-head a {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+
+/*  Main Product Page End*/
