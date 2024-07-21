@@ -606,6 +606,10 @@ footer .input-group-text {
   border-bottom: 1px solid black;
   padding-bottom: 20px;
 }
+.description h4 {
+  font-size: 26px;
+  font-size: var(--color-1c1c1c);
+}
 .review-head h4 {
   font-size: 18px;
   color: var(--color-1c1c1c);
@@ -615,5 +619,94 @@ footer .input-group-text {
   font-size: 14px;
   color: var(--color-777777);
 }
+.review-form {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.review:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.review p {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+.main-product-image {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
 
+.main-product-image > div {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.main-product-image img {
+  width: 100% !important;
+  height: 500px !important;
+  object-fit: cover;
+}
+.other-product-images {
+  background: white;
+  padding: 20px;
+}
+.other-product-images > div {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 48%;
+  padding: 20px;
+}
+.main-product-detail {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.main-product-detail a.review-btn,
+.t-review,
+.product-data {
+  color: var(--color-777777);
+  font-size: 13px;
+}
+.product-heading {
+  color: var(--color-1c1c1c);
+  font-size: 14px;
+  border-bottom: 0;
+}
 /*  Main Product Page End*/
+/* Cart */
+.cart-wapper .cart-header {
+  border-bottom: 1px solid #eaeaea;
+}
+.cart-wapper .cart-header h4 {
+  font-size: 13px;
+  color: var(--color-777777);
+}
+.cart-col-1 {
+  width: 40%;
+  font-size: 14px;
+}
+.cart-col-2 {
+  width: 10%;
+}
+.cart-col-3 {
+  width: 15%;
+}
+.cart-col-4 {
+  width: 15%;
+}
+.cart-data h5.price {
+  font-size: 14px;
+  color: var(--color-1c1c1c);
+}
+/* Cart End */
+/* Shipping Page */
+.total {
+  font-size: 14px;
+  color: var(--color-1c1c1c);
+}
+.total-price {
+  font-size: 16px;
+  color: var(--color-777777);
+}
+
+/* Shipping Page  End*/

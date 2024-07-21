@@ -1,6 +1,7 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
 import { Link, useLocation } from "react-router-dom";
+import wish from "../images/wish.svg";
 const ProductCard = ({ grid }) => {
   const { pathname } = useLocation();
   const columnClasses = `col-${pathname === "/store" ? grid : 3} 
@@ -11,9 +12,9 @@ const ProductCard = ({ grid }) => {
       <Link to="/product/:id">
         <div className="product-card position-relative mb-4">
           <div className="wishlist-icon position-absolute">
-            <Link to="">
-              <img src="images/wish.svg" alt="wishlist" />
-            </Link>
+            <button className="border-0 bg-transparent ">
+              <img src={wish} alt="wishlist" />
+            </button>
           </div>
           <div className="product-images">
             <img src="images/watch.jpg" alt="product card" />
@@ -40,16 +41,16 @@ const ProductCard = ({ grid }) => {
           </div>
           <div className="action-bar position-absolute ">
             <div className="d-flex flex-column gap-15">
-              <Link to="">
+              <button className="border-0 bg-transparent ">
                 <img src="images/prodcompare.svg" alt="prodcompare" />
-              </Link>
+              </button>
 
-              <Link to="">
+              <button className="border-0 bg-transparent ">
                 <img src="images/view.svg" alt="add-cart" />
-              </Link>
-              <Link to="">
+              </button>
+              <button className="border-0 bg-transparent ">
                 <img src="images/add-cart.svg" alt="add-cart" />
-              </Link>
+              </button>
             </div>
           </div>
         </div>

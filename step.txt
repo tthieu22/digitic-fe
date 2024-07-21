@@ -28,3 +28,12 @@ use change title
 
 ** Our store use 
 let location = useLocation();
+
+zoom image product
+npm i react-image-zoom
+
+done html css
+CustomInput / Container short code
+
+domain 
+netlify.com
