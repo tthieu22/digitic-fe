@@ -10,7 +10,7 @@ import { DiGitCompare } from "react-icons/di";
 import Container from "../components/Container";
 
 const SingleProduct = () => {
-  const [orderedProduct, setOrderedProduct] = useState(true);
+  const [orderedProduct] = useState(true); //setOrderedProduct
   const copyToClipboard = (text) => {
     console.log("text", text);
     var textField = document.createElement("textarea");
