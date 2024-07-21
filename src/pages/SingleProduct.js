@@ -158,15 +158,15 @@ const SingleProduct = () => {
                 <div className="d-flex gap-10 alight-items-center my-2 gap-30">
                   <div className="d-flex gap-10 align-items-center">
                     <CiHeart />
-                    <a className=" text-dark fs-7" href="#">
+                    <button className=" text-dark fs-7" onClick={{}}>
                       Wishlist
-                    </a>
+                    </button>
                   </div>
                   <div className="d-flex gap-10 align-items-center">
                     <DiGitCompare />
-                    <a className=" text-dark fs-7" href="#">
+                    <button className=" text-dark fs-7" onClick={{}}>
                       Add to Compare
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -184,8 +184,7 @@ const SingleProduct = () => {
               <div className="d-flex gap-10 alight-items-center my-2 flex-column">
                 <h3 className="product-heading">Copy Product Link:</h3>
 
-                <a
-                  href="javascript:void(0);"
+                <button
                   onClick={() => {
                     copyToClipboard(
                       "https://th.bing.com/th/id/OIP.pxQE_1xUjRdg6m48v7Su1QHaE8?w=279&h=186&c=7&r=0&o=5&pid=1.7"
@@ -193,7 +192,7 @@ const SingleProduct = () => {
                   }}
                 >
                   Copy Product Link
-                </a>
+                </button>
               </div>
               <div className="d-flex gap-10 alight-items-center my-2 flex-column">
                 <h3 className="product-heading">Material:</h3>
