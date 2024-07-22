@@ -3,12 +3,21 @@ import ReactStars from "react-rating-stars-component";
 import { Link, useLocation } from "react-router-dom";
 import wish from "../images/wish.svg";
 const ProductCard = ({ grid }) => {
+  let location = useLocation();
   const { pathname } = useLocation();
   const columnClasses = `col-${pathname === "/store" ? grid : 3} gr-${grid}`;
   const disdesc = ` description ${grid === 12 ? "d-block" : "d-none"}`;
   return (
     <div className={columnClasses}>
-      <Link to="/product/:id" className="w-100">
+      <Link
+        to={
+          location.pathname.startsWith("/product") &&
+          location.pathname !== "/product"
+            ? `${location.pathname}/:id`
+            : `/product/:id`
+        }
+        className="w-100"
+      >
         <div className="product-card position-relative mb-4">
           <div className="wishlist-icon position-absolute">
             <button className="border-0 bg-transparent ">
