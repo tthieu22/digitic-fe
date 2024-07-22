@@ -223,12 +223,14 @@ const OurSrore = () => {
                   <select
                     name="sortby"
                     id="sortby"
+                    defaultValue={"DEFAULT"}
                     className="form-control form-select"
                   >
-                    <option value="manual">Freatured</option>
-                    <option value="best-selling" selected="selected">
-                      Best Selling
+                    <option value="best-selling" disabled>
+                      Freatured
                     </option>
+                    <option value="manual">Freatured</option>
+                    <option value="best-selling">Best Selling</option>
                   </select>
                 </div>
                 <div className="d-flex gap-10 align-items-center ">
