@@ -710,3 +710,7 @@ footer .input-group-text {
 }
 
 /* Shipping Page  End*/
+.error {
+  color: red;
+  font-size: 14px;
+}

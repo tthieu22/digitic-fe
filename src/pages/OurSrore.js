@@ -1,13 +1,22 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
 import ReactStars from "react-rating-stars-component";
 import ProductCard from "../components/ProductCard";
 import Color from "../components/Color";
 import Container from "../components/Container";
+import { useDispatch, useSelector } from "react-redux";
+import { getAllProduct } from "../features/product/productSlice";
+
 const OurSrore = () => {
   const [grid, setgrid] = useState(4);
-  // alert(gird);
+  const dispatch = useDispatch();
+  const productstate = useSelector((state) => state?.product?.product);
+  console.log(productstate);
+
+  useEffect(() => {
+    dispatch(getAllProduct());
+  }, [dispatch]);
   return (
     <>
       <Meta title={"Our Store"}></Meta>
@@ -274,10 +283,10 @@ const OurSrore = () => {
             </div>
             <div className="product-list pb-5">
               <div className="row">
-                <ProductCard grid={grid} />
-                <ProductCard grid={grid} />
-                <ProductCard grid={grid} />
-                <ProductCard grid={grid} />
+                <ProductCard
+                  data={productstate ? productstate : []}
+                  grid={grid}
+                />
               </div>
             </div>
           </div>

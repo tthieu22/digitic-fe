@@ -37,3 +37,12 @@ CustomInput / Container short code
 
 domain 
 netlify.com
+'
+
+npm install @reduxjs/toolkit
+npm install react-redux
+npm i axios
+npm install formik --save
+
+npm i yup
+npm i react-toastify
